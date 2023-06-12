@@ -1,0 +1,104 @@
+*{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(./bg-intro-desktop.png);
+    
+}
+
+.frame{
+    height: 24px;
+    width: 390px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    margin-bottom: 16px;
+    padding: 12px;
+    padding-top: 16px;
+    border-radius: 4px;
+    text-align: center;
+    background-image: none;
+    
+
+}
+
+.content{
+    height: 350px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    border-radius: 4px;
+    background-image: none;
+     
+}
+
+input{
+    background-color: white;
+    height: 36px;
+    margin-bottom: 20px;
+    width: 320px;
+    border-radius: 4px;
+    text-align: left;
+    padding-left: 25px;
+    border-color: hsl(245, 25%, 77%);
+    background-image: none;
+}
+
+
+body {
+    font-family: "sans-serif",  Arial, Helvetica;
+    font-size: 16px;
+    color: black;
+
+}
+    
+    
+
+button {
+    height: 42px;
+    width: 350px;
+    border-radius: 4px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-color: hsl(154, 66%, 48%);
+    background-image: none;
+    
+}
+.text {
+    font-size: smaller;
+    font-weight: lighter;
+    background-color: white;
+
+}
+#text{
+text-decoration: none;
+color: red;
+}
+.all{
+    display: flex;
+    padding: 100px;
+}
+.fraco{
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    margin-left: 50px;
+    background-image: none;
+
+
+}
+.learn{
+    text-align:left;
+    padding-left: 100px;
+    color: white;
+    margin-top: 120px;
+}
+h6{
+    line-height: 16px;
+}
+
+@media all and(max-width: 500px){
+    .learn{padding: none
+
+    }
+}
